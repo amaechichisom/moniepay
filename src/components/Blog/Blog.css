@@ -1,0 +1,35 @@
+.update{
+    color:#5E5D5E !important;
+}
+.submit{
+    color:white !important;
+    background-color: #770770 !important;
+    border:unset !important;
+}
+/* .submit:hover{
+    color:#770770 !important;
+    background-color:transparent !important;
+    transition: all 0.4s;
+} */
+.blog-topic{
+    color:#770770!important;
+}
+.blog-topic:hover{
+    /* text-decoration: underline !important; */
+    cursor:none;
+}
+@media only screen and (max-device-width: 768px){
+    .update{
+        font-size: 12px !important;
+    }
+    .blog-header{
+        font-size:16px !important
+    }
+    .blog-email{
+        font-size:12px !important;
+    }
+    .submit{
+        font-size:11px !important;
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,60 @@
+.homeimage{
+    background:no-repeat url("background.png");
+    background-size: cover;
+    height:50vh;
+    background-attachment: fixed;
+    z-index: -100000;
+}
+.homebody{
+    background-color: #F7FAFB;
+    border:none;
+}
+.homebody h1{
+    color:#770770;
+    font-weight: bold;
+}
+.homebody p{
+    font-size:14px;
+}
+.homecard{
+    background:transparent;
+}
+.homebody button{
+    color:white;
+    background-color: #770770;
+    font-size:14px;
+    border:none;
+}
+.homebody button:hover{
+    color:white !important;
+    background-color: #841E7E;
+    font-size:14px;
+    border:none;
+}
+.homebtn:hover{
+    color:#770770  !important;
+    background: transparent !important;
+
+}
+
+@media screen and (max-width: 992px) {
+    .homeimage .display-2{
+        font-size: 26px;
+    }
+    .homeimage .display-5{
+        font-size: 16px;
+    }
+    .partner-logo img{
+        height:100px;
+        width:100px;
+        padding:1px !important;
+    }
+    .partner-logo{display: flex;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        margin:auto}
+    
+        
+
+}

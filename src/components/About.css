@@ -1,0 +1,10 @@
+
+
+@media screen and (max-width: 992px){
+    .team-section img{
+        height:150px;
+        width:150px;
+        padding:2px;
+    }
+    
+}
